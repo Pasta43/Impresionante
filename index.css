@@ -25,6 +25,16 @@ button{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffffff;
 }
+
+.orange-text{
+    color: #fa5433;
+}
+.purple-text{
+    color: #581744;
+}
+.qr-code{
+    margin-bottom: 10%;   
+}
 #init_image{
     background-image: url("images/fondo1.png");
     background-size: 100% 100%;
@@ -74,9 +84,8 @@ button{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-#texto1{
-    border-left: 2px solid #581744;
- 
+#texto1,#texto2{
+    border-right: 2px solid #581744;
 }
 
 #error1{
@@ -85,6 +94,24 @@ button{
     margin: 0;
 }
 
+#creciendo, #grave_error{
+    width: 100%;
+    height: 80%;
+}
+
+#pintura2fondo{
+    background-image: url("images/pintura2fondo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#division_color{
+    background-image: url("images/division_color.png");
+    background-size: 100% 100%;
+}
+
+#var_color{
+    margin-top: 5%;
+}
 .modal_btn{
     background-color: orangered;
     border: none;
