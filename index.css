@@ -6,6 +6,9 @@
 .brd{
     border: solid 1px green;
 }
+button{
+    border: none;
+}
 .title_impresionante {
     font-family: 'Poppins', sans-serif;
 }
@@ -107,4 +110,12 @@
 
 #var_color{
     margin-top: 5%;
+}
+.modal_btn{
+    background-color: orangered;
+    border: none;
+}
+
+.modal_btn:hover{
+    background-color: rgb(250, 105, 53);
 }
