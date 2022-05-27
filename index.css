@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brd{
+    border: solid 1px green;
+}
 .title_impresionante {
     font-family: 'Poppins', sans-serif;
 }
@@ -9,16 +17,50 @@
     width: 100%;
     height: 200px;
 }
-
+.line-text{
+    -webkit-text-fill-color: rgba(253, 253, 253, 0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
 #init_image{
     background-image: url("images/fondo1.png");
     background-size: 100% 100%;
+    overflow-x: hidden;
+}
+#des_title{
+    margin-bottom: 150px;
+}
+#product_list{
+    color: #fe7d60;
+    font-size: 65px;
+    margin-top: 70px;
+}
+
+#product_list p{
+    line-height: 100%;
+    margin: 0;
+}
+
+#product_list p:hover{
+    color: #fa512b;
 }
 
 #why-project-title{
-    color: #581744;
+    color: #ffffff;
+    font-size: 65px;
+    letter-spacing: -1px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #581744;
+    text-shadow: 3px 5px 0px #581744;
+    
 }
 
+#marque_text{
+    background-color: #581744;
+    font-size: 50px;
+    padding: 20px 0 
+}
 #gran_dia_img{
     width: 100%;
     height: 25%;
@@ -30,7 +72,7 @@
     background-repeat: no-repeat;
 }
 #texto1{
-    border-right: 1px dashed #581744;
+    border-right: 2px solid #581744;
 }
 
 #error1{
