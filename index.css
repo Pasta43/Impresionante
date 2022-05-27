@@ -93,7 +93,7 @@ button{
     background-size: 100% 100%;
 }
 
-#creciendo, #grave_error{
+#creciendo, #grave_error, #logrando_proyectos{
     width: 100%;
     height: 80%;
 }
@@ -103,13 +103,33 @@ button{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+#pintura3fondo{
+    background-image: url("images/pintura3fondo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#pintura4fondo{
+    background-image: url("images/pintura4fondo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#color_solido{
+    background-image: url("images/color_solido.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 #division_color{
     background-image: url("images/division_color.png");
     background-size: 100% 100%;
 }
 
-#var_color{
+#var_color, #falta_adhesion_title{
     margin-top: 5%;
+}
+#falta_adhesion{
+    background-image: url("images/falta_adhesion.png");
+    background-size: 100% 100%;
+    margin-top: 0.1%
 }
 .modal_btn{
     background-color: orangered;
