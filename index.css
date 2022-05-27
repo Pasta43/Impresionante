@@ -1,0 +1,39 @@
+.title_impresionante {
+    font-family: 'Poppins', sans-serif;
+}
+
+.texts_impresionante {
+    font-family: 'Century Gothic', sans-serif;
+}
+.img-error{
+    width: 100%;
+    height: 200px;
+}
+
+#init_image{
+    background-image: url("images/fondo1.png");
+    background-size: 100% 100%;
+}
+
+#why-project-title{
+    color: #581744;
+}
+
+#gran_dia_img{
+    width: 100%;
+    height: 25%;
+}
+
+#gran_dia_fondo{
+    background-image: url("images/pintura1fondo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#texto1{
+    border-right: 1px dashed #581744;
+}
+
+#error1{
+    background-image: url("images/error1.png");
+    background-size: 100% 100%;
+}
