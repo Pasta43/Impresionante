@@ -138,3 +138,10 @@ button{
     -moz-box-shadow: 9px 7px 9px 1px rgba(0,0,0,0.75);
     box-shadow: 9px 7px 9px 1px rgba(0,0,0,0.75);
 }
+.respuesta{
+    font-size: 23px;
+    font-style: italic;
+    border-bottom: solid 1px;
+    border-image: linear-gradient(to right, rgb(255, 255, 255), rgb(43, 43, 51)) 1;
+    margin-bottom: 10px;
+}
