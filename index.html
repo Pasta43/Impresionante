@@ -70,68 +70,69 @@
             <div class="row">
                 <div class="col-md-4">
                     <a href="#">
-                        <div class="card bg-white text-white">
+                        <div class="card bg-white text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="/images/justficacion.png" class="card-img" alt="Justificación">
                             <div class="card-img-overlay">
                                 <h4 class="card-title">Justificación</h4>
                             </div>
                         </div>
                     </a>
-                    <a href="">
-                        <div class="card bg-white text-white">
+                    <button>
+                        <div class="card bg-white text-white" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                             <img src="images/Objetivo.png" class="card-img" alt="Objetivo">
                             <div class="card-img-overlay">
                                 <h4 class="card-title align-self-end">Objetivo</h4>
 
                             </div>
                         </div>
-                    </a>
+                    </button>
                 </div>
                 <div class="col-md-4 ">
-                    <a href="">
-                        <div class="card bg-white text-white">
+                    <button>
+                        <div class="card bg-white text-white" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                             <img src="images/propuesta_transmedia.png" class="card-img" alt="propuesta_transmedia">
                             <div class="card-img-overlay">
                                 <h4 class="card-title">Propuesta Transmedia</h4>
                             </div>
                         </div>
-                    </a>
+                    </button>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
-                        <div class="card bg-white text-white">
+                    <button>
+                        <div class="card bg-white text-white" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                             <img src="images/Contexto.png" class="card-img" alt="Contexto">
                             <div class="card-img-overlay">
                                 <h4 class="card-title">Contexto</h4>
 
                             </div>
                         </div>
-                    </a>
-                    <a href="">
-                        <div class="card bg-white text-white">
+                    </button>
+                    <button>
+                        <div class="card bg-white text-white" data-bs-toggle="modal" data-bs-target="#exampleModal5">
                             <img src="images/publico_objetivo.png" class="card-img" alt="Público Objetivo">
                             <div class="card-img-overlay">
                                 <h4 class="card-title">Público Objetivo</h4>
 
                             </div>
                         </div>
-                    </a>
+                    </button>
                 </div>
             </div>
 
         </div>
-        <div class="row my-5 title_impresionante text-white" id="marque_text">
+        <div class="row mt-5 title_impresionante text-white" id="marque_text">
             <marquee behavior="alternate" direction="">
                 <p>EMPECEMOS A IMPRIMIR-EMPECEMOS A IMPRIMIR-EMPECEMOS A IMPRIMIR-EMPECEMOS A IMPRIMIR-</p>
             </marquee>
         </div>
         <div id="gran_dia">
-            <div class="row mt-5">
-                <div class="col-md-1"></div>
+            <div class="row ps-5">
                 <div class="col-md-8">
-                    <img id="gran_dia_img" src="images/Gran_dia.png" alt="Gran día">
-                    <div class="row">
-                        <div id="texto1" class="col-md-4">
+                    <div class="row my-5">
+                        <img id="gran_dia_img" src="images/Gran_dia.png" alt="Gran día">
+                    </div>
+                    <div class="row ps-5">
+                        <div class="col-md-5">
                             <p class="texts_impresionante">Mi nombre es Diego Andrés
                                 Barajas Montoya, nací el 23
                                 de marzo del 2001,
@@ -144,8 +145,9 @@
                                 gracias a todo esto me ha
                                 ayudado a redirigir mi vida y</p>
                         </div>
-                        <div class="col-md-4">
-                            <p class="texts_impresionante">entender cuál es mi
+                        <!-- <div class="col-md-1" id="texto1"></div> -->
+                        <div class="col-md-5" id="texto1" >
+                            <p class="texts_impresionante ps-2">entender cuál es mi
                                 propósito y cuál es mi
                                 objetivo, a través de muchas
                                 decisiones me he dado
@@ -241,6 +243,149 @@
         </div>
 
     </div>
+  
+  <!-- Modal Justificacion -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">JUSTIFICACIÓN</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Por medio de este storytelling quiero mostrarles de
+            una forma creativa, varios momentos de mi vida
+            que han sido importantes para mí e incluso mi
+            proyecto de vida.
+            Con el fin de mostrarles mi proceso y además
+            generar empatía con las personas que me quieran
+            conocer.
+            Todo esto creándolo de una forma creativa a
+            partir de un proceso que se usa en la industria de
+            la litografía como lo es la policromía.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal_btn" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal Justificacion -->
+   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">OBJETIVO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Principalmente, con este proyecto lo que deseo es
+            generar es empatia con los espectadores, apartir
+            de una relacion con mi proyecto de vida y con el
+            proceso de impresion el cual estoy dirigiendo este
+            proyecto, quiero generar nuevos conocimientos
+            que tal vez muchas personas desconozcan del
+            mundo de la litografia, y que podria ser muy
+            interesante para cada uno
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal_btn" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal PROPUESTA TRASMEDIA -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">PROPUESTA TRASMEDIA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Finalmente, lo que quiero lograr en este proyecto
+                    son dos cosas:
+                    <ol>
+                        <li>
+                            Que conozcan mi proceso y mi proyecto de
+                            vida, a partir del proceso de impresión
+                        </li>
+                        <li>
+                            Que entiendan el proceso que se hace para
+                            poder imprimir a grandes cantidades como se
+                            hacen en la litografía; teniendo eso en cuenta van
+                            a poder conocer como es el proceso, y cuáles son
+                            los errores más comunes y apoyándome de una
+                            red social como Instagram (a partir de
+                            publicaciones) sabrán como solucionarlos, para
+                            poder lograr una POLICROMÍA exitosa
+                        </li>
+                    </ol>
+                   
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary modal_btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Modal Contexto -->
+   <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">CONTEXTO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Ante todo, la idea principal de mi proyecto es
+            para poder mostrarles a las personas en un futuro
+            como fue mi proyecto de vida y como me
+            proyecte y logre ser lo que soy hoy en día, además
+            de eso también va dirigido a personas que les
+            interesa la impresión en litografía
+            A partir de eso, teniendo eso en cuenta, quiero
+            utilizar el proceso de impresión de litografía como
+            una metáfora de mi vida, donde voy a mostrar 4
+            momentos importantes de mi vida, asimilando que
+            son las 4 tintas que se usan en impresión (C,M,Y,K).
+            Para finalmente mostrarme como fue mi proceso y
+            como fue que me forme hoy en día.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal_btn" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal PÚBLICO OBJETIVO -->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PÚBLICO OBJETIVO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Personas de entre 18 y 40 años; que les apasiona o
+            estan interesados en el diseño grafico y/o la
+            impresion tipo offset; y que quieren ver como es el
+            mundo de la impresion en grandes cantidades;
+            ademas que quieran saber un poco mas sobre
+            como a sido mi proceso y mi trayectoria en mi
+            vida.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal_btn" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>

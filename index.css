@@ -6,6 +6,9 @@
 .brd{
     border: solid 1px green;
 }
+button{
+    border: none;
+}
 .title_impresionante {
     font-family: 'Poppins', sans-serif;
 }
@@ -72,10 +75,20 @@
     background-repeat: no-repeat;
 }
 #texto1{
-    border-right: 2px solid #581744;
+    border-left: 2px solid #581744;
+ 
 }
 
 #error1{
     background-image: url("images/error1.png");
     background-size: 100% 100%;
+}
+
+.modal_btn{
+    background-color: orangered;
+    border: none;
+}
+
+.modal_btn:hover{
+    background-color: rgb(250, 105, 53);
 }
