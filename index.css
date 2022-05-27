@@ -82,6 +82,7 @@ button{
 #error1{
     background-image: url("images/error1.png");
     background-size: 100% 100%;
+    margin: 0;
 }
 
 .modal_btn{
