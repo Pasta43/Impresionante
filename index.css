@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .brd{
     border: solid 1px green;
 }
@@ -12,14 +17,23 @@
     width: 100%;
     height: 200px;
 }
-
+.line-text{
+    -webkit-text-fill-color: rgba(253, 253, 253, 0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
 #init_image{
     background-image: url("images/fondo1.png");
     background-size: 100% 100%;
+    overflow-x: hidden;
+}
+#des_title{
+    margin-bottom: 150px;
 }
 #product_list{
     color: #fe7d60;
-    font-size: 50px;
+    font-size: 65px;
+    margin-top: 70px;
 }
 
 #product_list p{
@@ -58,7 +72,7 @@
     background-repeat: no-repeat;
 }
 #texto1{
-    border-right: 1px dashed #581744;
+    border-right: 2px solid #581744;
 }
 
 #error1{
