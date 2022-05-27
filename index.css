@@ -56,6 +56,7 @@ button{
 
 #product_list p:hover{
     color: #fa512b;
+    cursor: pointer;
 }
 
 #why-project-title{
@@ -84,13 +85,18 @@ button{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-#texto1,#texto2{
+#texto1{
+    border-left: 2px solid #581744;
+}
+
+#texto2{
     border-right: 2px solid #581744;
 }
 
 #error1{
     background-image: url("images/error1.png");
     background-size: 100% 100%;
+    margin: 0;
 }
 
 #creciendo, #grave_error, #logrando_proyectos{
@@ -136,6 +142,26 @@ button{
     border: none;
 }
 
+.modal_btn2{
+    background-color: #581744;
+    border: none;
+}
+
+
 .modal_btn:hover{
     background-color: rgb(250, 105, 53);
+}
+
+.shdow_box{
+    border: none;
+    -webkit-box-shadow: 9px 7px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 7px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: 9px 7px 9px 1px rgba(0,0,0,0.75);
+}
+.respuesta{
+    font-size: 23px;
+    font-style: italic;
+    border-bottom: solid 1px;
+    border-image: linear-gradient(to right, rgb(255, 255, 255), rgb(43, 43, 51)) 1;
+    margin-bottom: 10px;
 }
